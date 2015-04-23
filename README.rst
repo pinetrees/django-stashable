@@ -7,6 +7,11 @@ Stashable is a simple Django module to allow on-the-fly storage and access to mo
 Quick start
 -----------
 
+0. Really install it:
+    1. Clone my repository - git clone https://github.com/pinetrees/django-stashable
+    2. Build the package - python setup.py sdist
+    3. Install the package using pip - pip install /path/to/repository/dist/django-stashable-x.x.tar.gz
+
 1. Add "stashable" to your INSTALLED_APPS settings:
 
     INSTALLED_APPS = (
