@@ -37,6 +37,8 @@ class StashableModel(models.Model):
         if stash is not None:
             stash.set(obj)
 
+        return self
+
     @classmethod
     def purge(self):
         return self.objects.all().delete()
